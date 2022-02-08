@@ -1,0 +1,16 @@
+/*font colors*/
+
+$header-fcolor: #dcdad7;
+
+
+
+/*background colors*/
+
+/*fonts*/
+$header-font:Gill Sans;
+
+.header{
+  font-family: $header-font;
+  color: $header-fcolor;
+}
+

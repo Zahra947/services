@@ -1,7 +1,12 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+import "./styles.css";
+import Header from "./Header";
+
+function App() {
+  return <Header />;
+}
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
