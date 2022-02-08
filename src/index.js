@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 
 import "./styles.css";
-import Header from "pages/Header";
+import Header from "./pages/Header";
 
 function App() {
   return <Header />;
