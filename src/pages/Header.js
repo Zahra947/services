@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.scss";
-import "./Services";
 
 export default function Header() {
   return (
@@ -9,7 +8,7 @@ export default function Header() {
         <a
           class="navbar-brand p-3
         "
-          href="/.Header.js"
+          href="#"
         >
           Home
         </a>
@@ -27,7 +26,7 @@ export default function Header() {
         <a
           class="navbar-brand p-3
         "
-          href="./Services.js"
+          href="#"
         >
           Services
         </a>
