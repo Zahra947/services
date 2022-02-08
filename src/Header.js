@@ -8,7 +8,7 @@ export default function Header() {
         <a
           class="navbar-brand p-3
         "
-          href="#"
+          href="/.Header.js"
         >
           Home
         </a>
