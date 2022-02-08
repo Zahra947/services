@@ -4,7 +4,7 @@ import "./Header.scss";
 export default function Header() {
   return (
     <div className="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light  d-flex justify-content-center">
         <a class="navbar-brand" href="#">
           Home
         </a>
