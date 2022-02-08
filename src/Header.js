@@ -4,8 +4,12 @@ import "./Header.scss";
 export default function Header() {
   return (
     <div className="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light  d-flex justify-content-center">
-        <a class="navbar-brand" href="#">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light  d-flex justify-content-sm-center">
+        <a
+          class="navbar-brand p-3
+        "
+          href="#"
+        >
           Home
         </a>
         <button
@@ -19,7 +23,11 @@ export default function Header() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <a
+          class="navbar-brand p-3
+        "
+          href="#"
+        >
           Services
         </a>
         <button
@@ -33,7 +41,11 @@ export default function Header() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <a
+          class="navbar-brand p-3
+        "
+          href="#"
+        >
           About
         </a>
         <button
@@ -47,7 +59,11 @@ export default function Header() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <a
+          class="navbar-brand p-3
+        "
+          href="#"
+        >
           Contact
         </a>
         <button
