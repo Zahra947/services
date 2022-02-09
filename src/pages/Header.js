@@ -6,10 +6,12 @@ import "./Header.scss";
 export default function Header() {
   return (
     <div className="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light  d-flex justify-content-sm-center">
-        <Link to="/Home">Home </Link>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light  d-flex justify-content-sm-center">
+        <Link to="/Home" className="p-3">
+          Home
+        </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -17,11 +19,13 @@ export default function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <Link to="/Services">Services</Link>
+        <Link to="/Services" className="p-3">
+          Services
+        </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -29,11 +33,13 @@ export default function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <Link to="/About">About </Link>
+        <Link to="/About" className="p-3">
+          About{" "}
+        </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -41,11 +47,13 @@ export default function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <Link to="/Contact">Contact</Link>
+        <Link to="/Contact" className="p-3">
+          Contact
+        </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -53,7 +61,7 @@ export default function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
       </nav>
     </div>
