@@ -1,16 +1,19 @@
 /*font colors*/
-
 $header-fcolor: #dcdad7;
 
-
-
 /*background colors*/
+/*$header-bcolor: red;*/
 
 /*fonts*/
 $header-font:Gill Sans;
+/*body{
+  background-image: ;
+}*/
 
 .header{
   font-family: $header-font;
   color: $header-fcolor;
+  /*background-color: $header-bcolor;*/
+
 }
 

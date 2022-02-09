@@ -5,9 +5,9 @@ import "./Header.scss";
 
 export default function Header() {
   return (
-    <div className="header">
+    <div className="">
       <nav className="navbar navbar-expand-lg navbar-light bg-light  d-flex justify-content-sm-center">
-        <Link to="/Home" className="p-3">
+        <Link to="/Home" className="header p-3">
           Home
         </Link>
         <button
@@ -21,7 +21,7 @@ export default function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <Link to="/Services" className="p-3">
+        <Link to="/Services" className="header p-3">
           Services
         </Link>
         <button
@@ -35,7 +35,7 @@ export default function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <Link to="/About" className="p-3">
+        <Link to="/About" className="header p-3">
           About{" "}
         </Link>
         <button
@@ -49,7 +49,7 @@ export default function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <Link to="/Contact" className="p-3">
+        <Link to="/Contact" className="header p-3">
           Contact
         </Link>
         <button

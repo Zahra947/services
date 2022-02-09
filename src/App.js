@@ -4,6 +4,7 @@ import Header from "./pages/Header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
+import "./pages/Header.scss";
 //import Home from "./pages/Home";
 
 export default function App() {
