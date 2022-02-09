@@ -1,17 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./Header.scss";
 
 export default function Header() {
   return (
     <div className="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-light  d-flex justify-content-sm-center">
-        <a
-          class="navbar-brand p-3
-        "
-          href="#"
-        >
-          Home
-        </a>
+        <Link to="/Home">Home </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -23,13 +19,7 @@ export default function Header() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a
-          class="navbar-brand p-3
-        "
-          href="#"
-        >
-          Services
-        </a>
+        <Link to="/Services">Services</Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -41,13 +31,7 @@ export default function Header() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a
-          class="navbar-brand p-3
-        "
-          href="#"
-        >
-          About
-        </a>
+        <Link to="/About">About </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -59,13 +43,7 @@ export default function Header() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a
-          class="navbar-brand p-3
-        "
-          href="#"
-        >
-          Contact
-        </a>
+        <Link to="/Contact">Contact</Link>
         <button
           class="navbar-toggler"
           type="button"
