@@ -4,7 +4,6 @@ import Header from "./pages/Header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
-//import Home from "./pages/Home";
 
 export default function App() {
   const Home = () => <div>Home page </div>;
