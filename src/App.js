@@ -5,10 +5,12 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import "./pages/Header.scss";
-//import Home from "./pages/Home";
 
 export default function App() {
-  const Home = () => <div>hi</div>;
+  //this function is the homepage that is designed here
+  const Home = function () {
+    return <div>hi</div>;
+  };
   return (
     <Router>
       <Header />
