@@ -7,6 +7,7 @@ import Services from "./pages/Services";
 import "./styles/Header.scss";
 import "./styles/Home.scss";
 import "./styles/style.css";
+//import hero_1 from "./media/hero_1.jpg";
 
 export default function App() {
   //this function is the homepage that is designed here
@@ -15,6 +16,12 @@ export default function App() {
       <div>
         <div className="d-flex justify-content-sm-center hfonts body">
           These are our services
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg"
+            alt="background-pic"
+          />
         </div>
       </div>
     );
