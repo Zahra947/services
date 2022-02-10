@@ -16,12 +16,8 @@ export default function App() {
       <div>
         <div className="d-flex justify-content-sm-center hfonts body">
           These are our services
-        </div>
-        <div>
-          <img
-            src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg"
-            alt="background-pic"
-          />
+          <br />
+          <div>We make you happy</div>
         </div>
       </div>
     );
