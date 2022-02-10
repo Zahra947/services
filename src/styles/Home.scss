@@ -1,12 +1,9 @@
 @import"./Header.scss";
 @import"./variables.scss";
+@import"./style.css";
 
-@mixin bg-image($image) {
-  background-image: $image; 
-}
 
 .hfonts{
   font-family: $header-font;
   font-size: $main-fontsize;
-  @include bg-image(url('../media/hero_1.jpg'));
 }
