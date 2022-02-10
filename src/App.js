@@ -4,8 +4,8 @@ import Header from "./pages/Header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
-import "./pages/Header.scss";
-import "./Home.scss";
+import "./styles/Header.scss";
+import "./styles/Home.scss";
 
 export default function App() {
   //this function is the homepage that is designed here
