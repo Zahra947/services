@@ -1,7 +1,5 @@
-/*fonts*/
-$header-font:Gill Sans;
-$main-fontsize: 90px;
-$image-1: url-image('./media/hero_1');
+@import"./Header.scss";
+@import"./variables.scss";
 
 .hfonts{
   font-family: $header-font;
