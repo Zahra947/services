@@ -5,11 +5,18 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import "./pages/Header.scss";
+import "./Home.scss";
 
 export default function App() {
   //this function is the homepage that is designed here
   const Home = function () {
-    return <div>hi</div>;
+    return (
+      <div>
+        <div className="d-flex justify-content-sm-center hfonts">
+          These are our services
+        </div>
+      </div>
+    );
   };
   return (
     <Router>

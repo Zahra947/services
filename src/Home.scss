@@ -1,0 +1,10 @@
+/*fonts*/
+$header-font:Gill Sans;
+$main-fontsize: 90px;
+$image-1: url-image('./media/hero_1');
+
+.hfonts{
+  font-family: $header-font;
+  font-size: $main-fontsize;
+  background-image: $image-1;
+}
