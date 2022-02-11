@@ -25,11 +25,11 @@ export default function App() {
             strategies.We have strategies.We have strategies.We have
             strategies.We have strategies.We have strategies.
           </div>
-          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center p-2">
+          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center pt-5">
             <img
               src="https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="a jungle"
-              className="body-1"
+              className="img-fluid mx-auto d-block"
             />
           </div>
         </div>
