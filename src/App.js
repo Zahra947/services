@@ -52,6 +52,14 @@ export default function App() {
             strategies.We have strategies.We have strategies.
           </div>
         </div>
+        <div>
+          <div className="row">
+            <div className="col-4">hi</div>
+            <div className="col-4">hi</div>
+            <div className="col-4">hi</div>
+          </div>
+          <div className="row">hi</div>
+        </div>
       </div>
     );
   };
