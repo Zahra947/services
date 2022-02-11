@@ -33,6 +33,25 @@ export default function App() {
             />
           </div>
         </div>
+        <div className="d-flex align-items-sm-center justify-content-sm-center hfonts body-1">
+          Let make it simple
+          <br />
+          We make you happy
+        </div>
+        <div className="row">
+          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center pt-5">
+            <img
+              src="https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="a jungle"
+              className="img-fluid mx-auto d-block"
+            />
+          </div>
+          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center">
+            We have strategies.We have strategies.We have strategies.We have
+            strategies.We have strategies.We have strategies.We have
+            strategies.We have strategies.We have strategies.
+          </div>
+        </div>
       </div>
     );
   };
