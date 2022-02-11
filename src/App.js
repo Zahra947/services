@@ -17,8 +17,9 @@ export default function App() {
         <div className="d-flex justify-content-sm-center hfonts body">
           These are our services
           <br />
-          <div>We make you happy</div>
+          We make you happy
         </div>
+        <div>We have strategies</div>
       </div>
     );
   };
