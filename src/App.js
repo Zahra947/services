@@ -54,19 +54,28 @@ export default function App() {
         </div>
         <div>
           <div className="row bg-light footer">
-            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center">
+            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
               About Us
             </div>
-            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center">
+            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
               Quick Links
             </div>
-            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center">
+            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
               Follow Us
+            </div>
+            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-5">
+              We provide online services to make you happy.We provide online
+              services to make you happy.We provide online services to make you
+              happy.We provide online services to make you happy.We provide
+              online services to make you happy.
+            </div>
+            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
+              <a href="./pages/About.js">About Us</a>
             </div>
           </div>
           <div className="row bg-light footer">
-            <div className="col d-flex align-items-sm-center justify-content-sm-center">
-              © 2022.All Rights Reserved. Made Zahra Rabiei Demo Images:
+            <div className="col d-flex align-items-sm-center justify-content-sm-center p-2">
+              © 2022.All Rights Reserved. Made by Zahra Rabiei Demo Images:
               Unsplash
             </div>
           </div>
