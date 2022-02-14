@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import Header from "./pages/Header";
 import About from "./pages/About";
@@ -70,7 +70,17 @@ export default function App() {
               online services to make you happy.
             </div>
             <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
-              <a href="./pages/About.js">About Us</a>
+              <ul>
+                <li>
+                  <Link to="/About">About</Link>
+                </li>
+                <li>
+                  <Link to="/Services">Services</Link>
+                </li>
+                <li>
+                  <Link to="/Contact">Contact</Link>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="row bg-light footer">
