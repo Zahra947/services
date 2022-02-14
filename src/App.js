@@ -14,12 +14,12 @@ export default function App() {
   const Home = function () {
     return (
       <div>
-        <div className="d-flex align-items-sm-center justify-content-sm-center hfonts body">
+        <div className="d-flex align-items-sm-center justify-content-sm-center hfonts body p-5">
           These are our services
           <br />
           We make you happy
         </div>
-        <div className="row">
+        <div className="row d-flex align-items-sm-center justify-content-sm-center">
           <div className="col-6 d-flex align-items-sm-center justify-content-sm-center p-5">
             We have strategies.We have strategies.We have strategies.We have
             strategies.We have strategies.We have strategies.We have
@@ -29,11 +29,11 @@ export default function App() {
             <img
               src="https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="a jungle"
-              className="img-fluid p-5 mx-auto d-block"
+              className="img-fluid p-5 d-block"
             />
           </div>
         </div>
-        <div className="d-flex align-items-sm-center justify-content-sm-center hfonts body-1  py-5">
+        <div className="d-flex align-items-sm-center justify-content-sm-center hfonts body-1 p-5">
           Lets make it simple
           <br />
           We make you happy
@@ -43,10 +43,10 @@ export default function App() {
             <img
               src="https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="a jungle"
-              className="img-fluid py-5 mx-auto d-block"
+              className="img-fluid p-5 d-block"
             />
           </div>
-          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center">
+          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center p-5">
             We have strategies.We have strategies.We have strategies.We have
             strategies.We have strategies.We have strategies.We have
             strategies.We have strategies.We have strategies.
