@@ -15,15 +15,11 @@ export default function App() {
     return (
       <div>
         <div className="img-fluid d-flex align-items-sm-center justify-content-sm-center hfonts body p-5">
-          These are our services
-          <br />
-          We make you happy
+          Welcome to our website
         </div>
         <div className="row d-flex ">
-          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center p-5">
-            We have strategies.We have strategies.We have strategies.We have
-            strategies.We have strategies.We have strategies.We have
-            strategies.We have strategies.We have strategies.
+          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center texts p-5">
+            We provide you services.
           </div>
           <div className="col-6 d-flex align-items-sm-center justify-content-sm-center">
             <img
@@ -35,8 +31,6 @@ export default function App() {
         </div>
         <div className="d-flex align-items-sm-center justify-content-sm-center hfonts body-1 p-5">
           Lets make it simple
-          <br />
-          We make you happy
         </div>
         <div className="row d-flex">
           <div className="col-6 d-flex align-items-sm-center justify-content-sm-center">
@@ -46,31 +40,26 @@ export default function App() {
               className="img-fluid p-5 d-block"
             />
           </div>
-          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center p-5">
-            We have strategies.We have strategies.We have strategies.We have
-            strategies.We have strategies.We have strategies.We have
-            strategies.We have strategies.We have strategies.
+          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center texts p-5">
+            We provide you services.
           </div>
         </div>
         <div>
           <div className="row bg-light footer">
-            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
+            <div className="col-4 d-flex justify-content-sm-center p-1">
               About Us
             </div>
-            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
+            <div className="col-4 d-flex justify-content-sm-center p-1">
               Quick Links
             </div>
-            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
+            <div className="col-4 d-flex justify-content-sm-center p-1">
               Follow Us
             </div>
-            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-5">
-              We provide online services to make you happy.We provide online
-              services to make you happy.We provide online services to make you
-              happy.We provide online services to make you happy.We provide
-              online services to make you happy.
+            <div className="col-4 d-flex justify-content-sm-center p-3">
+              We provide you services.
             </div>
-            <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
-              <ul className="list-group">
+            <div className="col-4 d-flex justify-content-sm-center p-1">
+              <ul className="liststyle">
                 <li>
                   <Link to="/About">About</Link>
                 </li>
@@ -82,11 +71,24 @@ export default function App() {
                 </li>
               </ul>
             </div>
+            <div className="col-4 d-flex justify-content-sm-center p-1">
+              <ul className="liststyle">
+                <li>
+                  <a href="https://www.facebook.com">facebook</a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com">twitter</a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com">instagram</a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="row bg-light footer">
-            <div className="col d-flex align-items-sm-center justify-content-sm-center p-2">
-              © 2022.All Rights Reserved. Made by Zahra Rabiei Demo Images:
-              Unsplash
+            <div className="col d-flex align-items-sm-center justify-content-sm-center p-1">
+              © 2022.All Rights Reserved. Made by Zahra Rabiei. Demo Images:
+              <a href="https://www.pexels.com/">pexels</a>
             </div>
           </div>
         </div>
