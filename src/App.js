@@ -70,7 +70,7 @@ export default function App() {
               online services to make you happy.
             </div>
             <div className="col-4 d-flex align-items-sm-center justify-content-sm-center p-1">
-              <ul>
+              <ul className="list-group">
                 <li>
                   <Link to="/About">About</Link>
                 </li>
