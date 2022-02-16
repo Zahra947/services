@@ -43,11 +43,11 @@ export default function Footer() {
       </div>
       <div className="row bg-light footer">
         <div className="col d-flex align-items-sm-center justify-content-sm-center p-1">
-          © 2022.All Rights Reserved. Made by{" "}
+          © 2022.All Rights Reserved. Made by&nbsp;
           <a href="https://infallible-brown-4c7ef9.netlify.app/">
             Zahra Rabiei
           </a>
-          . Demo Images: <a href="https://www.pexels.com/">pexels</a>
+          . Demo Images:&nbsp;<a href="https://www.pexels.com/">pexels</a>
         </div>
       </div>
     </div>
