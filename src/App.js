@@ -23,25 +23,25 @@ export default function App() {
           </div>
           <div className="col-6 d-flex align-items-sm-center justify-content-sm-center">
             <img
-              src="https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="a jungle"
+              src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?cs=srgb&dl=pexels-fauxels-3183197.jpg&fm=jpg"
+              alt="office team"
               className="img-fluid p-4"
             />
           </div>
         </div>
-        <div className="d-flex align-items-sm-center justify-content-sm-center hfonts-1 body-1 p-5">
+        <div className="d-flex align-items-sm-center justify-content-sm-start hfonts-1 body-1 p-5">
           Lets make it simple
         </div>
         <div className="row d-flex">
           <div className="col-6 d-flex align-items-sm-center justify-content-sm-center">
             <img
-              src="https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="a jungle"
+              src="https://images.pexels.com/photos/7642001/pexels-photo-7642001.jpeg?cs=srgb&dl=pexels-alena-darmel-7642001.jpg&fm=jpg"
+              alt="satisfaction"
               className="img-fluid p-5 d-block"
             />
           </div>
-          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center texts p-5">
-            We provide you services.
+          <div className="col-6 d-flex align-items-sm-center justify-content-sm-center texts-1 p-5">
+            <Link to="/About">Why choose us.</Link>
           </div>
         </div>
         <div>

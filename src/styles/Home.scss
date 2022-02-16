@@ -2,7 +2,13 @@
 @import"./variables.scss";
 @import"./style.css";
 
-
+a{
+  color: $header-fcolor;
+}
+a:hover{
+  color:$header-fcolor;
+  opacity: 0.8;
+}
 .hfonts{
   font-family: $header-font;
   font-size: $main-fontsize;
@@ -21,4 +27,10 @@
 .texts{
   font-family: $header-font;
   font-size: $text-fontsize;
+  color: $header-fcolor;
+}
+.texts-1{
+  font-family: $header-font;
+  font-size: $text-fontsize;
+  color: $header-fcolor;
 }
