@@ -9,8 +9,12 @@ export default function About() {
       <div className="row d-flex ">
         <div className="col d-flex align-items-sm-center justify-content-sm-center texts p-5 m-5 about-11">
           We have started our company since 2010. We provide online and
-          in-person services for you. We work in different teams. Each team has
-          its own responsibilitis to meet your needs in a perfect way.
+          in-person services for you. We work in different &nbsp;
+          <a href="#teams" title="Teams">
+            teams
+          </a>
+          . Each team has its own responsibilitis to meet your needs in a
+          perfect way.
         </div>
       </div>
 
@@ -27,7 +31,7 @@ export default function About() {
         <div className="col d-flex align-items-sm-center justify-content-sm-center texts about-11">
           Our People:
         </div>
-        <div className="table-responsive">
+        <div className="table-responsive" id="teams">
           <table className="table table-sm align-middle texts about-11">
             <thead>
               <tr>
