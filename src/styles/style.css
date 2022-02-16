@@ -66,3 +66,14 @@ a {
 .about-11 {
   background-color: #dcdad7;
 }
+.contact-1 {
+  background-image: url("https://images.pexels.com/photos/11013648/pexels-photo-11013648.jpeg?cs=srgb&dl=pexels-phgaltri-11013648.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 100%;
+  background-position: center center;
+}
+.contact-11 {
+  color: white;
+}
