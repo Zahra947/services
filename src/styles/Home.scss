@@ -6,6 +6,12 @@
 .hfonts{
   font-family: $header-font;
   font-size: $main-fontsize;
+  color: $header-fcolor;
+}
+.hfonts-1{
+  font-family: $header-font;
+  font-size: $main-fontsize;
+  color: $main-fcolor;
 }
 .footer{
   font-family: $header-font;

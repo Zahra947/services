@@ -14,7 +14,7 @@ export default function App() {
   const Home = function () {
     return (
       <div>
-        <div className="img-fluid d-flex align-items-sm-center justify-content-sm-center hfonts body p-5">
+        <div className="img-fluid d-flex align-items-sm-center justify-content-sm-start hfonts body p-5">
           Welcome to our website
         </div>
         <div className="row d-flex ">
@@ -29,7 +29,7 @@ export default function App() {
             />
           </div>
         </div>
-        <div className="d-flex align-items-sm-center justify-content-sm-center hfonts body-1 p-5">
+        <div className="d-flex align-items-sm-center justify-content-sm-center hfonts-1 body-1 p-5">
           Lets make it simple
         </div>
         <div className="row d-flex">
