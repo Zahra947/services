@@ -31,3 +31,11 @@ a {
 .services-11 {
   color: #dcdad7;
 }
+.online-services {
+  background-image: url("https://images.pexels.com/photos/6446676/pexels-photo-6446676.jpeg?cs=srgb&dl=pexels-karina-zhukovskaya-6446676.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 100%;
+  background-position: center center;
+}
