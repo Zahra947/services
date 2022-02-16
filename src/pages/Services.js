@@ -27,7 +27,23 @@ export default function Services() {
         </div>
       </div>
       <div className="online-services p-5" id="online">
-        online services
+        <ul className="liststyle-1">
+          <li>
+            <a href="" title="Service 1">
+              Service 1
+            </a>
+          </li>
+          <li>
+            <a href="" title="Service 2">
+              Service 2
+            </a>
+          </li>
+          <li>
+            <a href="" title="Service 3">
+              Service 3
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

@@ -39,3 +39,8 @@ a {
   min-height: 100%;
   background-position: center center;
 }
+.liststyle-1 {
+  font-size: 35px;
+  color: #a97a71;
+  list-style-type: none;
+}
