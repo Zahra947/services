@@ -20,3 +20,14 @@ a {
 .liststyle {
   list-style-type: none;
 }
+.services-1 {
+  background-image: url("https://images.pexels.com/photos/6070384/pexels-photo-6070384.jpeg?cs=srgb&dl=pexels-jill-burrow-6070384.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 100%;
+  background-position: center center;
+}
+.services-11 {
+  color: #dcdad7;
+}

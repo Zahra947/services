@@ -1,10 +1,11 @@
 import React from "react";
-//import Header from "./Header";
 
 export default function Services() {
   return (
     <div>
-      <h1>services</h1>
+      <div className="img-fluid d-flex align-items-sm-center justify-content-sm-top hfonts services-1 p-5">
+        Find your&nbsp;<span className="services-11">services</span>&nbsp;here
+      </div>
     </div>
   );
 }
