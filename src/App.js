@@ -13,7 +13,7 @@ export default function App() {
   //this function is the homepage that is designed here
   const Home = function () {
     return (
-      <div>
+      <div className="container-fluid">
         <div className="img-fluid d-flex align-items-sm-center justify-content-sm-start hfonts body p-5">
           Welcome here
         </div>

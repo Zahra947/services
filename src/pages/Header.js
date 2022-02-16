@@ -5,7 +5,7 @@ import "../styles/Header.scss";
 
 export default function Header() {
   return (
-    <div className="">
+    <div className="container-fluid">
       <nav className="navbar navbar-expand-lg navbar-light header d-flex justify-content-sm-center">
         <Link to="/Home" className="header p-3">
           Home

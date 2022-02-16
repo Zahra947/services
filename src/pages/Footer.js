@@ -6,7 +6,7 @@ import "../styles/style.css";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="container-fluid">
       <div className="row bg-light footer">
         <div className="col-6 d-flex justify-content-sm-center p-1">
           Quick Links
