@@ -55,3 +55,14 @@ a {
   min-height: 100%;
   background-position: center center;
 }
+.about-1 {
+  background-image: url("https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg?cs=srgb&dl=pexels-fauxels-3183186.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 100%;
+  background-position: center center;
+}
+.about-11 {
+  background-color: #dcdad7;
+}
