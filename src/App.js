@@ -15,7 +15,7 @@ export default function App() {
     return (
       <div>
         <div className="img-fluid d-flex align-items-sm-center justify-content-sm-start hfonts body p-5">
-          Welcome to our website
+          Welcome here
         </div>
         <div className="row d-flex ">
           <div className="col-6 d-flex align-items-sm-center justify-content-sm-center texts p-5">
