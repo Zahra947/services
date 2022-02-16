@@ -4,10 +4,10 @@ import Header from "./pages/Header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
+import Footer from "./pages/Footer";
 import "./styles/Header.scss";
 import "./styles/Home.scss";
 import "./styles/style.css";
-//import hero_1 from "./media/hero_1.jpg";
 
 export default function App() {
   //this function is the homepage that is designed here
@@ -44,48 +44,6 @@ export default function App() {
             <Link to="/About">Why choose us.</Link>
           </div>
         </div>
-        <div>
-          <div className="row bg-light footer">
-            <div className="col-6 d-flex justify-content-sm-center p-1">
-              Quick Links
-            </div>
-            <div className="col-6 d-flex justify-content-sm-center p-1">
-              Follow Us
-            </div>
-            <div className="col-6 d-flex justify-content-sm-center p-1">
-              <ul className="liststyle">
-                <li>
-                  <Link to="/About">About</Link>
-                </li>
-                <li>
-                  <Link to="/Services">Services</Link>
-                </li>
-                <li>
-                  <Link to="/Contact">Contact</Link>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 d-flex justify-content-sm-center p-1">
-              <ul className="liststyle">
-                <li>
-                  <a href="https://www.facebook.com">facebook</a>
-                </li>
-                <li>
-                  <a href="https://www.twitter.com">twitter</a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com">instagram</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="row bg-light footer">
-            <div className="col d-flex align-items-sm-center justify-content-sm-center p-1">
-              © 2022.All Rights Reserved. Made by Zahra Rabiei. Demo Images:
-              <a href="https://www.pexels.com/">pexels</a>
-            </div>
-          </div>
-        </div>
       </div>
     );
   };
@@ -98,6 +56,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
