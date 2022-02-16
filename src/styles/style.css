@@ -20,6 +20,9 @@ a {
 .liststyle {
   list-style-type: none;
 }
+.serv-part1 {
+  background-color: #eaebed;
+}
 .services-1 {
   background-image: url("https://images.pexels.com/photos/6070384/pexels-photo-6070384.jpeg?cs=srgb&dl=pexels-jill-burrow-6070384.jpg&fm=jpg");
   background-repeat: no-repeat;

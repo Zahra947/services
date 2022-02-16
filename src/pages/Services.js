@@ -6,8 +6,8 @@ export default function Services() {
       <div className="img-fluid d-flex align-items-sm-center justify-content-sm-center hfonts services-1 p-5">
         Find your&nbsp;<span className="services-11">services</span>&nbsp;here
       </div>
-      <div className="row d-flex">
-        <div className="col-6 d-flex align-items-sm-center justify-content-sm-center">
+      <div className="row d-flex serv-part1">
+        <div className="col-6 d-flex align-items-sm-center justify-content-sm-center ">
           <a href="#online" title="Online Services">
             <img
               src="https://images.pexels.com/photos/6446676/pexels-photo-6446676.jpeg?cs=srgb&dl=pexels-karina-zhukovskaya-6446676.jpg&fm=jpg"
@@ -48,7 +48,7 @@ export default function Services() {
           </li>
         </ul>
       </div>
-      <div className="row d-flex ">
+      <div className="row d-flex serv-part1">
         <div className="col-6 d-flex align-items-sm-center justify-content-sm-center texts p-5">
           We care about details.
         </div>
