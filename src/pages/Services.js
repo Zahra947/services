@@ -19,14 +19,39 @@ export default function Services() {
         <div className="col-6 d-flex align-items-sm-center justify-content-sm-center">
           <a href="#in-person" title="In-Person Services">
             <img
-              src="https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg?cs=srgb&dl=pexels-fauxels-3184416.jpg&fm=jpg"
-              alt="online services"
+              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?cs=srgb&dl=pexels-fauxels-3184465.jpg&fm=jpg"
+              alt="in-person services"
               className="img-fluid p-3"
             />
           </a>
         </div>
       </div>
-      <div className="online-services p-5" id="online">
+      <div
+        className="online-services p-5 m-5 d-flex align-items-sm-start justify-content-sm-start"
+        id="online"
+      >
+        <ul className="liststyle-1">
+          <li>
+            <a href="" title="Service 1">
+              Service 1
+            </a>
+          </li>
+          <li>
+            <a href="" title="Service 2">
+              Service 2
+            </a>
+          </li>
+          <li>
+            <a href="" title="Service 3">
+              Service 3
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="in-person p-5 m-5 d-flex align-items-sm-start justify-content-sm-start"
+        id="in-person"
+      >
         <ul className="liststyle-1">
           <li>
             <a href="" title="Service 1">

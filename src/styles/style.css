@@ -44,3 +44,11 @@ a {
   color: #a97a71;
   list-style-type: none;
 }
+.in-person {
+  background-image: url("https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?cs=srgb&dl=pexels-fauxels-3184465.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 100%;
+  background-position: center center;
+}
