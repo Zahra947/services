@@ -46,19 +46,13 @@ export default function App() {
         </div>
         <div>
           <div className="row bg-light footer">
-            <div className="col-4 d-flex justify-content-sm-center p-1">
-              About Us
-            </div>
-            <div className="col-4 d-flex justify-content-sm-center p-1">
+            <div className="col-6 d-flex justify-content-sm-center p-1">
               Quick Links
             </div>
-            <div className="col-4 d-flex justify-content-sm-center p-1">
+            <div className="col-6 d-flex justify-content-sm-center p-1">
               Follow Us
             </div>
-            <div className="col-4 d-flex justify-content-sm-center p-3">
-              We provide you services.
-            </div>
-            <div className="col-4 d-flex justify-content-sm-center p-1">
+            <div className="col-6 d-flex justify-content-sm-center p-1">
               <ul className="liststyle">
                 <li>
                   <Link to="/About">About</Link>
@@ -71,7 +65,7 @@ export default function App() {
                 </li>
               </ul>
             </div>
-            <div className="col-4 d-flex justify-content-sm-center p-1">
+            <div className="col-6 d-flex justify-content-sm-center p-1">
               <ul className="liststyle">
                 <li>
                   <a href="https://www.facebook.com">facebook</a>
