@@ -48,6 +48,18 @@ export default function Services() {
           </li>
         </ul>
       </div>
+      <div className="row d-flex ">
+        <div className="col-6 d-flex align-items-sm-center justify-content-sm-center texts p-5">
+          We care about details.
+        </div>
+        <div className="col-6 d-flex align-items-sm-center justify-content-sm-center">
+          <img
+            src="https://images.pexels.com/photos/247781/pexels-photo-247781.jpeg?cs=srgb&dl=pexels-pixabay-247781.jpg&fm=jpg"
+            alt="office team"
+            className="img-fluid p-4"
+          />
+        </div>
+      </div>
       <div
         className="in-person p-5 m-5 d-flex align-items-sm-start justify-content-sm-start"
         id="in-person"
