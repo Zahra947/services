@@ -2,14 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../styles/Header.scss";
+import "../styles/style.css";
 
 export default function Header() {
   return (
     <div className="container-fluid">
-      <nav className="navbar navbar-expand-lg navbar-light d-flex justify-content-sm-center header">
+      <nav className="navbar d-flex justify-content-sm-center header">
         <Link
           to="/Home"
-          className="nav-link active header p-3 "
+          className=" header p-3 nav-link active"
           aria-current="page"
           title="Home"
         >
