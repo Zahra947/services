@@ -14,7 +14,7 @@ export default function Header() {
           Services
         </Link>
         <Link to="/About" className="header p-3">
-          About{" "}
+          About
         </Link>
         <Link to="/Contact" className="header p-3">
           Contact
