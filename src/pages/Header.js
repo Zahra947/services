@@ -6,31 +6,34 @@ import "../styles/style.css";
 
 export default function Header() {
   return (
-    <nav class="navbar navbar-expand-lg d-flex justify-content-sm-center header">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="navbar-nav d-flex justify-content-sm-center header">
-            <span class="nav-item">
+    <nav classNAme="navbar navbar-expand-lg d-flex justify-content-sm-center header">
+      <div classNAme="container-fluid">
+        <div
+          classNAme="collapse navbar-collapse d-flex justify-content-sm-center header"
+          id="navbarNav"
+        >
+          <div className="navbar-nav d-flex justify-content-sm-center header">
+            <span className="nav-item d-flex justify-content-sm-center header">
               <Link
                 to="/Home"
-                class="p-3 nav-link active"
+                className="nav-link active"
                 aria-current="page"
                 title="Home"
               >
                 Home
               </Link>
             </span>
-            <span class="nav-item">
+            <span className="nav-item d-flex justify-content-sm-center header">
               <Link to="/Services" className="nav-link" title="Services">
                 Services
               </Link>
             </span>
-            <span class="nav-item">
+            <span className="nav-item d-flex justify-content-sm-center header">
               <Link to="/About" className="nav-link" title="About">
                 About
               </Link>
             </span>
-            <span class="nav-item">
+            <span className="nav-item d-flex justify-content-sm-center header">
               <Link to="/Contact" className="nav-link" title="Contact">
                 Contact
               </Link>
