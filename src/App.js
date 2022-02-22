@@ -44,20 +44,18 @@ export default function App() {
             <Link to="/About">Why choose us.</Link>
           </div>
         </div>
-        {/*here we have routes which are other pages in the homepage*/}
-        <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
       </div>
     );
   };
   return (
     <Router>
       <Header />
-      <Home /> {/*call this function which is the first page*/}
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </Router>
   );
