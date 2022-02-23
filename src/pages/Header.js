@@ -6,28 +6,14 @@ import "../styles/style.css";
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg header d-flex justify-content-sm-center">
       <div className="container-fluid">
-        <Link to="/Home" className="navbar-brand" title="Here">
-          Here
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link
                 to="/Home"
-                className="nav-link active"
+                className="nav-link active p-3"
                 aria-current="page"
                 title="Home"
               >
@@ -35,17 +21,17 @@ export default function Header() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Services" className="nav-link" title="Services">
+              <Link to="/Services" className="nav-link p-3" title="Services">
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/About" className="nav-link" title="About">
+              <Link to="/About" className="nav-link p-3" title="About">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Contact" className="nav-link" title="Contact">
+              <Link to="/Contact" className="nav-link p-3" title="Contact">
                 Contact
               </Link>
             </li>
