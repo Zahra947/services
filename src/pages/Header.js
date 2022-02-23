@@ -6,14 +6,25 @@ import "../styles/style.css";
 
 export default function Header() {
   return (
-    <nav classNAme="navbar navbar-expand-lg d-flex justify-content-sm-center header">
-      <div classNAme="container-fluid">
-        <div
-          classNAme="collapse navbar-collapse d-flex justify-content-sm-center header"
-          id="navbarNav"
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        <Link to="/Home" className="navbar-brand" title="Here">
+          Here
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <div className="navbar-nav d-flex justify-content-sm-center header">
-            <span className="nav-item d-flex justify-content-sm-center header">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
               <Link
                 to="/Home"
                 className="nav-link active"
@@ -22,23 +33,23 @@ export default function Header() {
               >
                 Home
               </Link>
-            </span>
-            <span className="nav-item d-flex justify-content-sm-center header">
+            </li>
+            <li className="nav-item">
               <Link to="/Services" className="nav-link" title="Services">
                 Services
               </Link>
-            </span>
-            <span className="nav-item d-flex justify-content-sm-center header">
+            </li>
+            <li className="nav-item">
               <Link to="/About" className="nav-link" title="About">
                 About
               </Link>
-            </span>
-            <span className="nav-item d-flex justify-content-sm-center header">
+            </li>
+            <li className="nav-item">
               <Link to="/Contact" className="nav-link" title="Contact">
                 Contact
               </Link>
-            </span>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
